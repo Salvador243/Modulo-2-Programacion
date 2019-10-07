@@ -27,6 +27,8 @@ int main()
  	    cout<<"ES IMPAR"<<endl;
        impares ++;
     }
+
+    //ejemplo para commits
 }
     cout << "El total de numeros pares : " << pares<<endl;
 	cout << "El total de numeros impares : " << impares<<endl;
