@@ -1,0 +1,41 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main(){
+    char votos[100];
+    int totalVotos[3]; // x) a ------x) x---------------x)c
+    string matriculas [100];
+    char opciones['a', 'b', 'c';]
+    char voto;
+    string matricula;
+    int aux;
+
+    for(int x =0; x<100; x++){
+        cout<<"ingrese su matricula"<<endl;
+        cin >> matricula;
+        matriculas [x] = matricula;
+        cout<<"vota por alguno a/b/c"<<endl;
+        cin >> voto;
+        votos [x] = voto;
+        switch(voto){
+    case 'a':
+        totalVotos[0] += 1;
+        break;
+    case 'b':
+        totalVotos[1] += 1;
+        break:
+    case 'c':
+        totalVotos[2] += 1;
+        break;
+    default:
+        break;
+
+        }
+    }
+    for (int i = 0; i < 3; i++)
+    cout << "Votos de "<< opciones[i] << "son"<<totalVotos[i] << endl;
+    /*opcines = 4
+    totalVotos = 3*/
+
+    return 0;
+}

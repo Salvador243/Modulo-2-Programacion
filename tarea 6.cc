@@ -24,7 +24,7 @@ int main()
 
     }
 	else if((numero % 2) !=0){
- 	    cout<<"ES IMPAR"<<endl;
+       cout<<"ES IMPAR"<<endl;
        impares ++;
     }
 
